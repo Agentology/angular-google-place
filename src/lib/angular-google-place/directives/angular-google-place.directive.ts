@@ -100,7 +100,7 @@ export class AngularGooglePlaceDirective implements OnInit {
   }
 
   ngOnInit() {
-
+    console.log('test');
     this.CountryCodes.emit(this.service.countryIsoCode());
     this.TypesOptions.emit(this.service.typesOptions());
 
