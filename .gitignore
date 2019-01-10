@@ -3,6 +3,7 @@
 # compiled output
 /tmp
 /out-tsc
+/dist
 
 # dependencies
 /node_modules
@@ -42,5 +43,8 @@ Thumbs.db
 
 #Compodoc
 /doc/docs/
+
+# Package
+/package
 
 yarn-error\.log
